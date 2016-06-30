@@ -16,7 +16,7 @@ set asset5=%5
 set asset6=%6
 set asset7=%7
 set asset8=%8
-set asset="%asset1%" "%asset2%" "%asset3%" "%asset4%" "%asset5%" "%asset6%" "%asset7%" "%asset8%"
+set asset=%asset1% %asset2% %asset3% %asset4% %asset5% %asset6% %asset7% %asset8%
 set path=%~dp0
 set ps="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
 %ps% -noprofile -executionpolicy bypass -file  "%path%Hunter.ps1" %asset%
