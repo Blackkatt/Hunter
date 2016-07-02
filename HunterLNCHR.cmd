@@ -8,7 +8,7 @@
 
 :: NOTES
 :: Place HunterLNCHR.cmd & Hunter.ps1 in the same folder.
-:: Use HunterLNCHR.cmd to run. More info found Hunter.ps1
+:: Use HunterLNCHR.cmd to run. Additional information found in Hunter.ps1.
 
 set asset1=%1
 set asset2=%2
