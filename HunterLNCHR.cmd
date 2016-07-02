@@ -6,7 +6,9 @@
 :: Hunter.ps1 cannot be loaded because running scripts is disabled on this system.
 :: We temporary bypass that policy using this batch.
 
-:: INDEX AND SETUP SETTINGS ARE FOUND IN 'Hunter.ps1'
+:: NOTES
+:: Place HunterLNCHR.cmd & Hunter.ps1 in the same folder.
+:: Use HunterLNCHR.cmd to run. More info found Hunter.ps1
 
 set asset1=%1
 set asset2=%2
